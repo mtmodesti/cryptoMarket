@@ -11,7 +11,7 @@
         class="
         titlePage rounded-b-full text-center text-5xl font-mono tracking-wider uppercase font-medium w-2/3  bg-gradient-to-r from-sky-500 to-indigo-500 text-sky-400"
       >
-        Crypto Market
+        _Crypto Market_
       </h1>
 
       <div class="flex items-center justify-around gap-5 m-8 text-center">
