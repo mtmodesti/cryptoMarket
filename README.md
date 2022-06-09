@@ -1,30 +1,12 @@
-# cryptocoin
+In this application, I tried to be as simple as possible.
 
-This template should help get you started developing with Vue 3 in Vite.
+In the main table, in the center of the page, you will see a list of 100 cryptocurrencies. Each currency represented in the row has 7 columns with the following information, respectively:
 
-## Recommended IDE Setup
+Position, symbol, abbreviation, unit price in dollars, percentage change in price in the last day and the value of transactions in the last 24 hours.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+The table information is updated every 10ms.
 
-## Customize configuration
+You can search in the text field for any desired currency by name or abbreviation. All matches with the text field will be returned in the table.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+In the box on the right, you enter a date and the name of the currency. A modal will be opened if the information is correct. Future dates, very distant pasts where information about the currency did not yet exist, or wrong names will show a modal stating that it was not possible to collect this information.
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-# cryptoCoinProject
