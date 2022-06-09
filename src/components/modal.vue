@@ -32,7 +32,7 @@ const openError = ref(false);
     </p>
     <button
       class="bg-cyan-900 w-44 hover:bg-sky-400 rounded-xl hover:text-black transition-colors text-white"
-      @click="closeModalFunction(); ()=>{console.log('oi')}"
+      @click="closeModalFunction()"
     >
       Close
     </button>
@@ -111,7 +111,7 @@ export default {
 
   methods: {
     async getCoinData() {
-      console.log('oi')
+      
 
       let dateInput = document.querySelector("#dateInput");
       let year = dateInput.value.replaceAll("-", " ").split(" ")[0];
