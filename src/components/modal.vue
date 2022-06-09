@@ -1,3 +1,4 @@
+
 <script setup>
 import { ref } from "vue";
 
@@ -111,8 +112,6 @@ export default {
 
   methods: {
     async getCoinData() {
-      
-
       let dateInput = document.querySelector("#dateInput");
       let year = dateInput.value.replaceAll("-", " ").split(" ")[0];
       let month = dateInput.value.replaceAll("-", " ").split(" ")[1];
